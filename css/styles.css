@@ -131,3 +131,9 @@ ul{
     color: white;
     margin-top: 0%;
 }
+
+@media all and (max-device-width: 480px){
+    .Header{
+        flex-direction: column;
+    }
+}
