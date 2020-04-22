@@ -146,21 +146,21 @@ footer{
         font-size: 3em;
     }
 
-    .Header{
+    .intro{
         flex-direction: column;
     }
 
-    #image{
+    #imageAuthor{
         justify-content: center;
         align-items: flex-end;
         width: 100%;
     }
 
-    #bio{
+    #aboutAuthor{
         width: 100%;
     }
 
-    .Content{
+    .content{
         flex-direction: column-reverse;
     }
 
