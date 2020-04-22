@@ -5,7 +5,7 @@ body {
     flex-direction: column;
 }
 
-.Header{
+.intro{
     background-color: aqua;
     display: flex;
     flex-wrap: wrap;
@@ -13,43 +13,7 @@ body {
     height: 25%;
 }
 
-.Content{
-   
-    display: flex;
-    flex-wrap: wrap;
-    height: 60%;
-}
-
-footer{
-    background-color:#268DF0 ;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    box-sizing: border-box;
-    justify-content: center;
-    height: 15%;
-}
-
-#image{
-    display: flex;
-    justify-content: left;
-    align-items: flex-end;
-    width: 40%;
-}
-
-.img{
-    max-width: 100%;
-    height: auto;
-}
-
-.logo{
-    max-width: 100%;
-    height: 100%;
-    margin:0% 2% 0% 0%;
-    background-color: blue;
-}
-
-#bio{
+#aboutAuthor{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -80,6 +44,24 @@ footer{
     font-size: 1.2em;
 }
 
+#imageAuthor{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    width: 40%;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    height: 60%;
+}
+
 #icon{
     display: flex;
     justify-content: center;
@@ -104,9 +86,43 @@ h2{
     padding: 0% 3%;
 }
 
+.diffBackground{
+    background-color: yellow;
+    color:#268DF0 !important ;
+}
+
+.text{
+    margin: 2% 3% 2% 3%;
+}
+
 ul{
     align-self: flex-start;
     margin-top: 0%;
+}
+
+footer{
+    background-color:#268DF0 ;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    height: 15%;
+}
+
+#contact1{
+    margin: 4% 0% 0% 10%;
+}
+
+#contact2{
+    display: flex;
+    font-size: 1.4em;
+    color: white;
+    margin: 1% 0% 0% 10%;
+}
+
+@media screen and (min-device-width: 480px)  {
+    .mobile-break { display: none; }
 }
 
 #logos{
@@ -117,31 +133,11 @@ ul{
     margin: 0% 0% 1% 10%;
 }
 
-#contact1{
-    margin: 4% 0% 0% 10%;
-}
-
-#contact2{
-    display: flex;
-    margin: 1% 0% 0% 10%;
-}
-
-.diffBackground{
-    background-color: yellow;
-    color:#268DF0 !important ;
-}
-
-.info{
-    font-size: 1.4em;
-    color: white;
-}
-
-.text{
-    margin: 2% 3% 2% 3%;
-}
-
-@media screen and (min-device-width: 480px)  {
-    .mobile-break { display: none; }
+.logo{
+    max-width: 100%;
+    height: 100%;
+    margin:0% 2% 0% 0%;
+    background-color: blue;
 }
 
 @media all and (max-device-width: 480px){
