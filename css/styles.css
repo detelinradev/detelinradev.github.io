@@ -1,6 +1,6 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     display: flex;
     flex-direction: column;
 }
@@ -45,7 +45,7 @@ footer{
 .logo{
     max-width: 100%;
     height: 100%;
-    margin-right: 2%;
+    margin:0% 2% 0% 0%;
     background-color: blue;
 }
 
@@ -114,26 +114,75 @@ ul{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
-    margin: 0% 0% 2% 10%;
+    margin: 0% 0% 1% 10%;
 }
 
-#contact{
-    margin: 3% 0% 0% 10%;
+#contact1{
+    margin: 4% 0% 0% 10%;
+}
+
+#contact2{
+    display: flex;
+    margin: 1% 0% 0% 10%;
 }
 
 .diffBackground{
     background-color: yellow;
-    color:#268DF0 ;
+    color:#268DF0 !important ;
 }
 
-#info{
+.info{
     font-size: 1.4em;
     color: white;
-    margin-top: 0%;
+}
+
+.text{
+    margin: 2% 3% 2% 3%;
+}
+
+@media screen and (min-device-width: 480px)  {
+    .mobile-break { display: none; }
 }
 
 @media all and (max-device-width: 480px){
+
+    body{
+        font-size: 3em;
+    }
+
     .Header{
+        flex-direction: column;
+    }
+
+    #image{
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    #bio{
+        width: 100%;
+    }
+
+    .Content{
+        flex-direction: column-reverse;
+    }
+
+    #icon{
+        width: 100%;
+    }
+
+    #description{
+        width: 100%;
+        margin:0% 3% 2% 3%;
+    }
+
+    h2{
+        align-self: center;
+    }
+
+    #contact2{
+        display:flex;
         flex-direction: column;
     }
 }
