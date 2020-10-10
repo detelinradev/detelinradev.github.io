@@ -141,7 +141,6 @@ footer{
 }
 
 @media all and (max-device-width: 480px){
-
     body{
         font-size: 3em;
     }
